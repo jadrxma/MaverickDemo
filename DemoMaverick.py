@@ -7,7 +7,7 @@ from io import BytesIO
 openai.api_key = st.secrets["api_key"]
 
 # Define the Streamlit app layout
-st.title('VC Outreach Email Personalization Tool')
+st.title('Avio, Your Own BDR')
 
 # Initialize session state for storing the DataFrame if it doesn't exist
 if 'personalized_df' not in st.session_state:
